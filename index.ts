@@ -8,11 +8,14 @@
                // Types e Interfaces
 
 interface IAnimal {
-    nome: string,
+    nome: string;
     tipo: 'terrestre'| 'aquatico';
 }
 interface IFelino extends IAnimal{
     visaoNoturna: boolean;
+}
+interface IReptil extends IAnimal {
+    nadar: boolean;
 }
 
 const animal: IAnimal= {
@@ -25,7 +28,11 @@ const felinos: IFelino={
     nome:'Leão',
     tipo: 'terrestre',
     visaoNoturna: true,
-    
+}
+const reptil: IReptil={
+    nome:'Jacaré',
+    tipo: 'aquatico',
+    nadar: true,
 
 }
 
