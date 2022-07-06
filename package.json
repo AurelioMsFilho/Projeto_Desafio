@@ -1,0 +1,16 @@
+{
+  "name": "projeto_desafio",
+  "version": "1.0.0",
+  "description": "desasio_typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aurélio Martins Filho",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {}
+}
